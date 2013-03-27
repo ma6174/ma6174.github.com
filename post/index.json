@@ -7,7 +7,7 @@
         {"name": "other", "text":"其它"}
     ],
     "articles":[
-        {"title": "python_list", "file": "2013-01-01-python_list", "cate":"tech"},
+        {"title": "python迭代器和生成器", "file": "2013-01-01-python_list", "cate":"tech"},
         {"title": "", "file": "", "cate":"tech"}
     ]
 }
