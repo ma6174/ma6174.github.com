@@ -7,7 +7,6 @@
     "articles":[
         {"title": "python迭代器和生成器", "file": "2013-01-01-python_list", "cate":"tech"},
         {"title": "python命令行自动补全", "file": "2013-01-03-pythonstartup", "cate":"tech"},
-        {"title": "测试", "file": "2012-10-10-test", "cate":"tech"},
-        {"title": "", "file": "", "cate":"tech"}
+        {"title": "测试", "file": "2012-10-10-test", "cate":"tech"}
     ]
 }
