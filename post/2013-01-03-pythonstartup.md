@@ -27,4 +27,4 @@ export PYTHONSTARTUP="/home/ma6174/.pythonstartup"
 ```
 
 - 从新打开终端，进入python交互式命令行界面试一下。下面是我的运行效果截图：
-![pythonstartup](./image/pythonstartup.png)
+![pythonstartup](./images/pythonstartup.png)
