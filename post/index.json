@@ -2,9 +2,7 @@
     "site_name": "小码哥的博客",
     "copyright": "ma6174",
     "cates": [
-        {"name": "tech", "text":"工作"},
-        {"name": "life", "text":"生活"},
-        {"name": "other", "text":"其它"}
+        {"name": "tech", "text":"Archives"}
     ],
     "articles":[
         {"title": "python迭代器和生成器", "file": "2013-01-01-python_list", "cate":"tech"},
