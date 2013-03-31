@@ -4,7 +4,6 @@
 
 1. 在用户目录下新建".pythonstartup"文件，写入以下内容：
 ```python
-# python startup file
 import readline
 import rlcompleter
 import atexit
