@@ -5,6 +5,7 @@
         {"name": "tech", "text":"Archives"}
     ],
     "articles":[
+        {"title": "yield生成器的一点总结", "file": "2013-04-09-yield_canshu", "cate":"tech"},
         {"title": "opencv人脸识别", "file": "2013-03-30-opencv", "cate":"tech"},
         {"title": "python迭代器和生成器", "file": "2013-01-01-python_list", "cate":"tech"},
         {"title": "python命令行自动补全", "file": "2013-01-03-pythonstartup", "cate":"tech"},
