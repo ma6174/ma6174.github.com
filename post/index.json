@@ -5,6 +5,7 @@
         {"name": "tech", "text":"Archives"}
     ],
     "articles":[
+        {"title": "python装饰器", "file": "2013-04-15-python_closure", "cate":"tech"},
         {"title": "yield生成器的一点总结", "file": "2013-04-09-yield_canshu", "cate":"tech"},
         {"title": "opencv人脸识别", "file": "2013-03-30-opencv", "cate":"tech"},
         {"title": "python迭代器和生成器", "file": "2013-01-01-python_list", "cate":"tech"},
