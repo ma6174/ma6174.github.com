@@ -25,11 +25,11 @@ GND      Ground
 
 树莓派引脚分布图：
 
-![image/gpios.png](image/gpios.png)
+![images/gpios.png](images/gpios.png)
 
 实物连线图
 
-![image/lianxian.jpg](image/lianxian.jpg)
+![images/lianxian.jpg](images/lianxian.jpg)
 
 我是直接用笔记本的电源进行供电的，当然你也可以再外加一个电源。
 
