@@ -5,7 +5,7 @@
         {"name": "tech", "text":"Archives"}
     ],
     "articles":[
-        {"title": "西邮Linux小组免试题继续揭秘", "file": "2013-05-03-continue", "cate":"tech"},
+        {"title": "西邮Linux小组免试题继续揭秘", "file": "2013-05-04-continue", "cate":"tech"},
         {"title": "西邮Linux小组免试题揭秘", "file": "2013-05-03-challenge", "cate":"tech"},
         {"title": "通过串口连接控制树莓派", "file": "2013-04-23-raspberrypi_tty", "cate":"tech"},
         {"title": "python中的闭包", "file": "2013-04-15-python_closure", "cate":"tech"},
