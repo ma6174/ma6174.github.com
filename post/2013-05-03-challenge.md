@@ -201,3 +201,6 @@ for i in num:
 - [小组博客](http://jwch.sdut.edu.cn/blog/index.html)
 - [小组海报](/images/sdutlinux.jpg)
 
+### 继续挑战：
+
+点击这里，精彩继续：[http://ma6174.github.io/#show/2013-05-04-continue]([http://ma6174.github.io/#show/2013-05-04-continue)
