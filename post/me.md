@@ -8,7 +8,7 @@
 - 人称`小码哥`，网名`ma6174`
 - 电话：`187-6696-4456`
 - email：`ma617495#gmail.com` or `ma6174#163.com`
-- gtalk：`ma6174#gmail.com`
+- gtalk：`ma617495#gmail.com`
 - QQ：`674108687`
 
 ### 扩展信息
