@@ -17,6 +17,12 @@
 - 摄影记录生活：[http://ma6174.lofter.com/](http://ma6174.lofter.com/)
 - 饭否表达想法：[http://fanfou.com/ma6174](http://fanfou.com/ma6174)
 
+### 我的强项
+
+- `python`
+- `Linux`
+- `服务器的管理与配置`
+
 ### 编程技能
 
 - 狂爱`python`
