@@ -77,7 +77,7 @@
 
 - 写过小程序，小脚本无数，其他项目可以在[我的github](https://github.com/ma6174?tab=repositories)或[我的博客](http://ma6174.cnblogs.com)查看
 
-- 在山东省第三届ACM程序设计竞赛、山东理工大学第四届、第五届ACM程序设计竞赛中做后台技术支持，还有比赛环境搭建。包括客户端（linux）和服务器（linux）的安装和配置，PC^2比赛环境的搭建，比赛期间限制访问外网，提供代码打印服务等
+- 在山东省第三届ACM程序设计竞赛、山东理工大学第四届、第五届ACM程序设计竞赛中做后台技术支持，还有比赛环境搭建。包括客户端（linux）和服务器（linux）的安装和配置，`PC^2`比赛环境的搭建，比赛期间限制访问外网，提供代码打印服务等
 
 - 做过`ACM`，对算法、代码优化等有一定研究
 
@@ -112,28 +112,27 @@
 - 曾经在`《移动信息》`杂志发表树莓派的的文章：[http://www.cnblogs.com/ma6174/archive/2013/05/07/3065464.html](http://www.cnblogs.com/ma6174/archive/2013/05/07/3065464.html)
 - 山东理工大学Linux兴趣小组成员
 - 喜欢打乒乓球，跑步等锻炼身体
+- 喜欢在`jing.fm`听歌
 - 是个工具控，使用各种优秀的工具来学习和生活：
-    - 使用dropbox保存和同步数据
-    - 使用github托管代码
-    - 使用vim写程序
-    - 使用google reader订阅资讯
-    - 使用tower.im和trello进行团队合作
-    - 使用gtask和google日历管理任务
-    - 使用evernote保存重要数据
-    - 使用麦库保存优秀博文
-    - 使用markdown+wiki写文档
-    - 使用lofter分享照片
-    - 使用chrome和firefox浏览网页
-    - 使用gtalk交流
-    - 使用gimp处理图片
-    - 使用slid.es制作幻灯片
-    - 使用stardict进行翻译
-    - 使用virtualbox虚拟机
-    - 使用发条番茄钟来落实番茄工作法
-    - 使用139邮箱邮件短信提醒
-    - 使用鲜果联播进行个性化订阅
-    - 使用tmux管理终端界面
-    - 偶尔玩玩teeworlds游戏
+    - 使用`dropbox`保存和同步数据
+    - 使用`github`托管代码
+    - 使用`vim`写程序
+    - 使用`google reader`订阅资讯
+    - 使用`tower.im`和`trello`进行团队合作
+    - 使用`gtask`和`google日历`管理任务
+    - 使用`evernote`保存重要数据
+    - 使用`麦库`和`evernote`保存优秀博文
+    - 使用`markdown+wiki`写文档
+    - 使用`lofter`分享照片
+    - 使用`chrome`和`firefox`浏览网页
+    - 使用`gtalk`交流
+    - 使用`gimp`处理图片
+    - 使用`slid.es`制作幻灯片
+    - 使用`stardict`进行翻译
+    - 使用`virtualbox`虚拟机
+    - 使用`鲜果联播`进行个性化订阅
+    - 使用`tmux`管理终端界面
+    - 偶尔玩玩`teeworlds`游戏
     - 请原谅我在此处省略N条`^_^`
 
 ### 我的MBTI职业性格测试结果
