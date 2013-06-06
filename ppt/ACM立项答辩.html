@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+<div class="slides">
+    <section>
+        <h2>
+            <font style="font-size: 72px;">
+                <br>
+            </font>
+        </h2>
+<h2>
+        <font style="font-size: 72px;">
+            <br>
+        </font>
+    </h2>
+<h2>
+    <font style="font-size: 72px;">
+ACM在线测评系统<br>扩充与完善
+</font>
+</h2>
+<div>
+<font style="font-size: 72px;">
+    <br>
+</font>
+</div>
+<div>
+<br>
+</div>
+<p style="text-align: center;">
+<span>答辩人：马伟伟</span>
+<BR />
+<span>指导教师：张立红</span>
+<br>
+</p>
+<p style="text-align: center;">
+    <span>2013年6月6日</span>
+</p>
+
+</section>
+<section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+<h2>
+    </h2>
+<h2>
+    </h2>
+<h2>项目简介</h2>
+</section>
+<section>
+    <div style="text-align: left;">
+        <span style="font-size: 42px;">
+            <br>
+        </span>
+    </div>
+    <div style="text-align: left;">
+        <span style="font-size: 42px;">
+            <br>
+        </span>
+    </div>
+    <div style="text-align: left;">
+        <span style="font-size: 42px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 山东理工大学ACM在线测评系统于2009年正式上线试用，主要是为广大师生提供一个在线学习和测试的平台。学生通过在网站上做题可以巩固学到的知识，提高专业技能，更加高效地编程解决实际问题。老师可以随时查看学生做题情况，掌握学生对课程的掌握程度。&nbsp;
+</span>
+    </div>
+    <div style="text-align: left;">
+        <span style="font-size: 42px;">
+            <br>
+        </span>
+    </div>
+    <div style="text-align: left;">
+        <span style="font-size: 42px;">网站主页：</span>
+        <a href="http://acm.sdut.edu.cn" style="font-size: 42px;">http://acm.sdut.edu.cn</a>
+    </div>
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+<h2>
+    </h2>
+<h2>
+    </h2>
+<h2>存在的问题</h2>
+</section>
+<section>
+    <div style="text-align: left;">
+        <span>
+            <font style="font-size: 42px;">
+                <br>
+            </font>
+        </span>
+    </div>
+    <div style="text-align: left;">
+        <span>
+            <font style="font-size: 42px;">
+                <br>
+            </font>
+        </span>
+    </div>
+    <div style="text-align: left;">
+        <span>
+            <font style="font-size: 42px;">
+                <br>
+            </font>
+        </span>
+    </div>
+    <font style="font-size: 42px;">
+        <ul>
+            <li>
+                <span style="text-align: center;">缺少近期比赛功能，集训队员不能及时获取比赛资讯</span>
+            </li>
+            <li>
+                <span style="text-align: center;">没用</span>
+                <span lang="en-US" style="text-align: center;">diy/webdiy</span>
+                <span style="text-align: center;">功能，不能很好地增加其他</span>
+                <span lang="en-US" style="text-align: center;">OJ</span>
+                <span style="text-align: center;">题目组织比赛</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;">不能检查学生的代码是否相同，无法检查作弊</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;">评测程序评测速度较慢，评测</span>
+                <span lang="en-US" style="text-align: center;">java</span>
+                <span style="text-align: center;">代码有问题</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;">网站浏览器兼容有问题，有些浏览器上显示混乱</span>
+                <br>
+            </li>
+            <li>
+                <span style="text-align: center;">网站性能比较差，在比赛时经常当机</span>
+                <br>
+            </li>
+        </ul>&nbsp;&nbsp;
+
+</font>
+    </section>
+</section>
+<section>
+    <h2>
+        <br>
+    </h2>
+    <h2>
+    </h2>
+    <h2>
+    </h2>
+    <h2>解决方案</h2>
+</section>
+<section>
+    <section>
+        <h2>
+	
+	
+	
+
+
+<p class="cjk" style="margin-bottom: 0.26cm;">
+    </p>
+    <p class="cjk" style="margin-bottom: 0.26cm;">
+    </p>
+    <p class="cjk" style="margin-bottom: 0.26cm;">
+        <span>缺少近期比赛功能</span>
+        <br>
+    </p>
+</h2>
+</section>
+<section>
+    <h2 style="text-align: left;">
+        <br>
+    </h2>
+    <div style="text-align: left;">
+        <br>
+    </div>
+    <h3 style="text-align: left;">近期比赛功能实现：</h3>
+    <div style="text-align: left;">
+        <br>
+    </div>
+    <div>
+	
+	
+	
+
+
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">从<span lang="en-US">
+    <a class="western" href="http://contests.acmicpc.info/contests.json">http://contests.acmicpc.info/contests.json</a>
+    </span>获取比赛数据，进行解析，然后整合之后生成一个静态页面，在<span lang="en-US">OJ</span>上显示，每隔一段时间执行一次，以便抓取最新数据并显示</p>
+    <p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+        <br>
+    </p>
+    <p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">演示：</p>
+    <p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+        <a href="http://acm.sdut.edu.cn/recentcontest.html">http://acm.sdut.edu.cn/recentcontest.html</a>
+        <br>
+    </p>
+</div>
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+	
+	
+	
+
+
+</h2>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font face="Liberation Serif, MS Mincho, serif">
+                <span lang="en-US">
+                    <br>
+                </span>
+            </font>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font face="Liberation Serif, MS Mincho, serif">
+                <span lang="en-US">
+                    <br>
+                </span>
+            </font>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font face="Liberation Serif, MS Mincho, serif">
+                <span lang="en-US">
+                </span>
+            </font>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font face="Liberation Serif, MS Mincho, serif" style="font-size: 55.8px; font-style: inherit; font-variant: inherit;">
+                <span lang="en-US">
+                </span>
+            </font>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font face="Liberation Serif, MS Mincho, serif" style="font-size: 55.8px; font-style: inherit; font-variant: inherit;">
+                <span lang="en-US">webdiy</span>
+            </font>
+            <span style="font-size: 55.8px;">功能的设计与实现</span>
+            <br>
+        </h3>
+    </section>
+    <section>
+        <p style="text-align: left;">
+<span>解决方案：</span>
+</p>
+<div style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span>利用一个开源virtual judge解决</span>
+<span>方案，经过修改，部署到服务器上。</span>
+</div>
+<div style="text-align: left;">
+    <br>
+</div>
+<div style="text-align: left;">实现功能 ：</div>
+	
+	
+	
+
+
+<ul>
+	<li>
+<p class="cjk" style="margin-bottom: 0.26cm;">&nbsp; 自动抓取<span lang="en-US">poj,zoj,hdu,spoj,uva</span>等各大网站的题目</p>
+	</li>
+<li>
+    <p class="cjk" style="margin-bottom: 0.26cm;">
+	将各大<span lang="en-US">OJ</span>的题目组织起来做成一场比赛</p>
+	</li>
+    <li>
+        <p class="cjk" style="margin-bottom: 0.26cm;">
+	可以增加题目</p>
+    </li>
+</ul>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">演示地址：</p>
+        <p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+            <a href="http://acm.sdut.edu.cn:8080/judge/problem/toListProblem.action">http://acm.sdut.edu.cn:8080/judge/problem/toListProblem.action</a>
+            <br>
+        </p>
+        <p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+            <font style="font-size: 32px;">
+                <br>
+            </font>
+        </p>
+
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+	
+	
+	
+
+
+</h2>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <br>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <span style="font-size: 55.8px;">&nbsp;代码检查功能的设计与实现</span>
+            <br>
+        </h3>
+    </section>
+    <section>
+	
+	
+	
+
+
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+    <br>
+</p>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">解决方案：</p>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+    <br>
+</p>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">代码检查使用斯坦福大学的<font face="Times New Roman, serif">
+    <span lang="en-US">moss</span>
+</font>作弊检查系统API，我们需要将用户提交的代码从数据库取出来，然后提交到斯坦福大学的<font face="Times New Roman, serif">
+<span lang="en-US">moss</span>
+</font>系统，然后获取检查结果，最后整理检查结果，以漂亮的格式输出来。</p>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">
+    <br>
+</p>
+<p class="cjk" style="text-align: left; margin-bottom: 0.26cm;">代码及结果展示</p>
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+	
+	
+	
+
+
+</h2>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <br>
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+        </h3>
+        <h3 class="cjk" style="margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <span style="font-size: 55.8px;">&nbsp;评测程序问题解决</span>
+        </h3>
+    </section>
+    <section>
+        <div>
+            <span style="text-align: left;">
+                <br>
+            </span>
+        </div>
+        <span style="text-align: left;">
+            <div>基本原理：</div>
+            <div>
+                <br>
+            </div>
+            <ul>
+                <li>
+                    <span>从数据库取出代码，</span>
+                    <br>
+                </li>
+                <li>
+                    <span>对用户提交的各种语言代码进行编译，执行，</span>
+                    <br>
+                </li>
+                <li>
+                    <span>将输出结果重定向到文件，</span>
+                    <br>
+                </li>
+                <li>
+                    <span>检查程序执行时间和内存，</span>
+                    <br>
+                </li>
+                <li>
+                    <span>将用户答案和标准答案进行对比，</span>
+                    <br>
+                </li>
+                <li>
+                    <span>最后得到结果保存到数据库。</span>
+                    <br>
+                </li>
+            </ul>
+        </span>
+        <div>
+            <br>
+        </div>
+    </section>
+    <section>
+        <div style="text-align: left;">
+            <span>
+                <br>
+            </span>
+        </div>
+        <div style="text-align: left;">
+            <span>修改后的评测程序评测效果：</span>
+        </div>
+        <div style="text-align: left;">
+            <span>
+                <br>
+            </span>
+        </div>
+        <div style="text-align: left;">
+            <span>
+                <br>
+            </span>
+        </div>
+        <div style="text-align: left;">
+	
+	
+	
+
+
+<ul>
+	<li>
+        <p class="cjk" style="margin-bottom: 0.26cm;">&nbsp;评测速度进一步提升，平均每秒能判<font face="Times New Roman, serif">
+            <span lang="en-US">6</span>
+            </font>个题目，</p>
+	</li>
+            <li>
+                <p class="cjk" style="margin-bottom: 0.26cm;">
+	增加多语言支持，方便学习其他语言的同学来锻炼自己。</p>
+	</li>
+                <li>
+                    <p class="cjk" style="margin-bottom: 0.26cm;">
+	详细的日志记录，方便日后分析问题</p>
+	</li>
+                    <li>
+                        <p class="cjk" style="margin-bottom: 0.26cm;">
+	占用系统资源少，减轻服务器的压力</p>
+</li>
+                    </ul>&nbsp;&nbsp;<span>
+                    <br>
+                </span>
+            </div>
+        </section>
+    </section>
+    <section>
+        <h3 class="cjk" style="text-align: left; margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font style="font-size: 32px;">
+                <br>
+            </font>
+        </h3>
+        <h3 class="cjk" style="text-align: left; margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font style="font-size: 32px;">
+                <br>
+            </font>
+        </h3>
+        <h3 class="cjk" style="text-align: left; margin-top: 0.26cm; margin-bottom: 0.26cm;">
+            <font style="font-size: 32px;">
+其他改进：</font>
+        </h3>
+        <div>
+            <font style="font-size: 32px;">
+                <br>
+            </font>
+        </div>
+        <div>
+            <font style="font-size: 32px;">
+                <br>
+            </font>
+        </div>
+        <h2>
+	
+	
+	
+
+
+
+<font style="font-size: 32px;">
+        <ul>
+	<li>
+        <p class="cjk" style="margin-bottom: 0.26cm;">&nbsp; 找到网站比赛时负载高的根源，修复漏掉，提高服务器的性能</p>
+	</li>
+        <li>
+            <p class="cjk" style="margin-bottom: 0.26cm;">
+	在一些页面增加缓存，避免每次都读写数据库，提高相应速度</p>
+	</li>
+            <li>
+                <p class="cjk" style="margin-bottom: 0.26cm; border-style: none; padding: 0cm;">
+	更新<span lang="en-US">
+                <span style="background-position: initial initial; background-repeat: initial initial;">Frequently
+	Asked Questions</span>
+                </span>，让用户更加了解<span lang="en-US">ACM</span>评测系统</p>
+	</li>
+                <li>
+                    <p class="cjk" style="margin-bottom: 0.26cm;">
+	增加题目，丰富<span lang="en-US">OJ</span>的内容</p>
+</li>
+                </ul>
+                <div style="text-align: left;">
+                    <span style="font-size: 32px;">&nbsp;&nbsp;</span>
+                </div>
+            </font>
+        </h2>
+    </section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+        <h2>
+            <span style="font-size: 75.96px;">总结&nbsp;</span>
+            <br>
+        </h2>
+        <div>
+            <br>
+        </div>
+        <div>
+            <br>
+        </div>
+        <div style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;通过对ACM评测网站的学习和研究，我们掌握了很多关于服务器架构的知识，通过实际分析问题，解决问题，巩固了我们学到的知识，提高了专业技能。自己动手写程序，实践能力得到提高。
+
+</div>
+    </section>
+    <section>
+        <h2>
+            <br>
+        </h2>
+        <h2>
+        </h2>
+        <h2>
+        </h2>
+        <h2>谢谢大家</h2>
+    </section>
+</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
