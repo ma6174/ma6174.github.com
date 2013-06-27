@@ -5,6 +5,7 @@
         {"name": "tech", "text":"Archives"}
     ],
     "articles":[
+        {"title": "找实习总结", "file": "2013-07-25-find-job-summary", "cate":"tech"},
         {"title": "ACM在线测评系统评测程序设计与实现", "file": "2013-05-12-acmjudge", "cate":"tech"},
         {"title": "我的树莓派的文章发表啦", "file": "2013-05-07-raspberry_article", "cate":"tech"},
         {"title": "西邮Linux小组免试题继续揭秘", "file": "2013-05-04-continue", "cate":"tech"},
