@@ -5,6 +5,7 @@
         {"name": "tech", "text":"Archives"}
     ],
     "articles":[
+        {"title": "让树莓派说出自己的IP地址", "file": "2013-08-24-raspip", "cate":"tech"},
         {"title": "实习两周记", "file": "2013-08-12-summary", "cate":"tech"},
         {"title": "找实习总结", "file": "2013-07-25-find-job-summary", "cate":"tech"},
         {"title": "ACM在线测评系统评测程序设计与实现", "file": "2013-05-12-acmjudge", "cate":"tech"},
