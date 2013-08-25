@@ -4,6 +4,19 @@
     width:700px;
     margin:0 auto;
 }
+img{
+    max-width:700px;
+}
+p{
+    text-indent: 2em;
+}
+li>p{
+    text-indent: 0em;
+}
+
+#article_list{
+    font-size:15px;
+}
 
 body { padding-bottom: 40px; padding-top: 60px;width:95%;}
 

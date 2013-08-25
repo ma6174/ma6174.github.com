@@ -1,11 +1,15 @@
 $(function() {
-    var contents_url = "https://api.github.com/repos/ma6174/ma6174.github.com/contents/post";
+    var user_name = "ma6174";
+    var client_id = "f9ef585d125b0b094565";
+    var client_secret = "ba769ead1c8282b1aaee0c421283e77b4392d3b3";
+    var contents_url = "https://api.github.com/repos/"+user_name+"/"+user_name+".github.com/contents/post?client_id="+client_id+"&client_secret="+client_secret;
     var contents = $.getJSON(contents_url,function(data){
         var ul = $("<ul></ul>");
         ul.attr("id","article_list");
         var i = data.length - 1;
         for(;i>0;i--){
-            $.get(data[i].url).done(function(data){
+            var temp_url = data[i].url+"&client_id="+client_id+"&client_secret="+client_secret;
+            $.get(temp_url).done(function(data){
                 var filename = data.name;
                 var content_data = utf8to16(base64decode(data.content));
                 var title = content_data.split("\n")[0].slice(2);
@@ -21,7 +25,7 @@ $(function() {
                 a.appendTo(li);
                 li.appendTo(ul);
                 var div = $("<div></div>");
-                markdown = new Showdown.converter();
+                var markdown = new Showdown.converter();
                 var html = markdown.makeHtml(content_data);
                 div.attr("id",filename.split(".")[0]);
                 div.addClass("div_article");
@@ -34,16 +38,15 @@ $(function() {
     });
     
     $("a").live('click',function(){
-        $("#article_list").hide();
+        $("#article_list").fadeToggle();
         $("#"+this.id.split(".")[0]).show();
     });
     window.onhashchange = function(){
         var window_url=window.location.href;
         var title = window_url.split("#show/")[1];
         if(title === undefined){
-            $("#article_list").show();
+            $("#article_list").fadeToggle();
             $(".div_article").hide();
         }
     };
 });
-
