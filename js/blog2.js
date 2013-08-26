@@ -40,7 +40,7 @@ $(function() {
 //            $("h1").append($("<hr />"));
             ul.appendTo($("#body"));
         });
-        $("a").live('click',function(){
+        $("li a").live('click',function(){
             $("#article_list").fadeToggle();
             $("#"+this.id.split(".")[0]).show();
         });
