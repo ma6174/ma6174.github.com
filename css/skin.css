@@ -4,6 +4,9 @@
     width:700px;
     margin:0 auto;
 }
+pre>code{
+    background-color:rgb(187, 209, 140) !important;
+}
 img{
     max-width:700px;
 }

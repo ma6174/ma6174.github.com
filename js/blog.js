@@ -60,6 +60,7 @@ $(function() {
                                          div.html(html);
                                          div.appendTo($("#body"));
                                          div.hide();
+                                         $("#"+filename.split(".")[0]+' pre code').each(function(i, e) {hljs.highlightBlock(e)});
                                      });
                                  }
                                  //            $("h1").append($("<hr />"));
