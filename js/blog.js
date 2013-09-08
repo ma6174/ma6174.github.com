@@ -31,14 +31,12 @@ $(function() {
                              function(data){
                                  var ul = $("<ul></ul>");
                                  ul.attr("id","article_list");
+                                 ul.appendTo($("#body"));
                                  var i = data.length - 1;
                                  for(;i>0;i--){
 //                                     console.log(parsePostData(data[i].url));
                                      $.get(data[i].url,{"client_id":client_id,"client_secret":client_secret}).done(function(data){
                                          var filename = data.name;
-                                         if(filename.slice(0,2) != "20"){
-                                             return false;
-                                         }
                                          var content_data = utf8to16(base64decode(data.content));
                                          var title = content_data.split("\n")[0].slice(2);
                                          if(title === "") {
@@ -47,7 +45,8 @@ $(function() {
                                          var li = $("<li></li>");
                                          li.addClass("content_url");
                                          var a = $("<a></a>");
-                                         a.attr("href","#show/"+filename.split(".")[0]);
+                                         var id = filename.split(".")[0];
+                                         a.attr("href","#show/"+id);
                                          a.attr("id",filename);
                                          a.text(title);
                                          a.appendTo(li);
@@ -55,26 +54,31 @@ $(function() {
                                          var div = $("<div></div>");
                                          var markdown = new Showdown.converter();
                                          var html = markdown.makeHtml(content_data);
-                                         div.attr("id",filename.split(".")[0]);
+                                         div.attr("id",id);
                                          div.addClass("div_article");
                                          div.html(html);
                                          div.appendTo($("#body"));
-                                         div.hide();
                                          $("#"+filename.split(".")[0]+' pre code').each(function(i, e) {hljs.highlightBlock(e)});
+                                         var window_url=window.location.href;
+                                         var urltitle = window_url.split("#show/")[1];
+                                         if(urltitle == id){
+                                             $("#article_list").hide();
+                                         }else{
+                                             div.hide();
+                                         }
                                      });
                                  }
                                  //            $("h1").append($("<hr />"));
-                                 ul.appendTo($("#body"));
                              });
                              $("li a").live('click',function(){
-                                 $("#article_list").fadeToggle();
+                                 $("#article_list").hide();
                                  $("#"+this.id.split(".")[0]).show();
                              });
                              window.onhashchange = function(){
                                  var window_url=window.location.href;
                                  var title = window_url.split("#show/")[1];
                                  if(title === undefined){
-                                     $("#article_list").fadeToggle();
+                                     $("#article_list").show();
                                      $(".div_article").hide();
                                  }
                              };
