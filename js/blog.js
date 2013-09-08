@@ -35,7 +35,7 @@ $(function() {
              ul.appendTo($("#body"));
              var i = data.length - 1;
              for(;i>0;i--){
-//                                     console.log(parsePostData(data[i].url));
+//               console.log(parsePostData(data[i].url));
                  $.get(data[i].url,{"client_id":client_id,"client_secret":client_secret}).done(function(data){
                      var filename = data.name;
                      var content_data = utf8to16(base64decode(data.content));
