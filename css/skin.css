@@ -5,7 +5,10 @@
     margin:0 auto;
 }
 pre>code{
-    background-color:rgb(187, 209, 140) !important;
+    background-color:rgb(187, 209, 140);
+}
+.navbar .nav {
+    float: right;
 }
 img{
     max-width:700px;
@@ -17,8 +20,9 @@ li>p{
     text-indent: 0em;
 }
 
-#article_list{
-    font-size:15px;
+.content_url{
+    font-size: 20px;
+    line-height: 130%;
 }
 
 body { padding-bottom: 40px; padding-top: 60px;width:95%;}
