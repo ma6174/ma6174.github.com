@@ -18,102 +18,41 @@
         <![endif]-->
     </head>
     <body>
-        <script id="tpl-main" type="text/template">
-            <div class="navbar navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container-fluid">
-                        <a class="brand" href="#">{{site_name}}</a>
-                        <div class="nav-collapse">
-                            <ul class="nav">
-                                {{#navlist}}
-                                    <li><a href="{{link}}">{{text}}</a></li>
-                                {{/navlist}}
-                                <li><a href="/#show/ppt">PPT</a></li>
-                                <li><a target="_blank" href="http://ma6174.cnblogs.com/">cnblogs</a></li>
-                                <li><a target="_blank" href="http://v.to/0I5je">maiku</a></li>
-                                <li><a target="_blank" href="https://github.com/ma6174/">github</a></li>
-                                <li><a target="_blank" href="http://ma6174.lofter.com/">lofter</a></li>
-                                <li><a target="_blank" href="http://fanfou.com/ma6174/">fanfou</a></li>
-                                <li><a href="/#show/me">求职</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span3">
-                        <div class="well sidebar-nav">
-                        </div>
-                        <div class="well sidebar-comment">
-                        </div>
-                        <div class="well sidebar-users">
-                        </div>
-                    </div>
-                    <div class="span9">
-                        <div class="row-fluid article-content">
-                        </div>
-                        <div class="row-fluid pagebar">
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <footer role="contentinfo">
-                <center>
-                    <p>&copy; {{copyright}} Powered by <a
-                        href="https://github.com/ma6174/ma6174.github.com" target="_blank">小码哥的博客</a>
-                    Base on <a
-                        href="https://github.com/hugcoday/hugcoday.github.com" target="_blank">多多de棉花糖</a>
-                </center>
-                </footer>
-            </div><!--/.fluid-container-->
-        </script>
-        <script id="tpl-sidebar" type="text/template">
-            <ul class="nav nav-list">
-                {{#months}}
-                <li class="nav-header">{{month}}</li>
-                {{#articles}}
-                <li><a href="#show/{{link}}">{{text}}</a></li>
-                {{/articles}}
-                {{/months}}
-            </ul>
-        </script>
-        <script id="tpl-pagebar" type="text/template">
-            <div class="row-fluid">
-                <div class="span12">
-                    <div class="pagination">
-                        <ul>
-                            <li class="prev previous_page "><a href="#">上一页</a></li> 
-                            {{#pages}}
-                            <li ><a href="#page/{{num}}">{{num}}</a></li>
-                            {{/pages}}
-                            <li class="next next_page "><a rel="next" href="/?page=2">下一页</a></li>
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="brand" href="#">小码哥的博客</a>
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="/#show/ppt">PPT</a></li>
+                            <li><a target="_blank" href="http://ma6174.cnblogs.com/">cnblogs</a></li>
+                            <li><a target="_blank" href="http://v.to/0I5je">maiku</a></li>
+                            <li><a target="_blank" href="https://github.com/ma6174/">github</a></li>
+                            <li><a target="_blank" href="http://ma6174.lofter.com/">lofter</a></li>
+                            <li><a target="_blank" href="http://fanfou.com/ma6174/">fanfou</a></li>
+                            <li><a href="/#show/me">求职</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </script>
+        </div>
+        <div id="body">
+        </div>
+        <hr>
+        <footer role="contentinfo">
+        <center>
+            <p>&copy; Powered by <a
+                href="https://github.com/ma6174/ma6174.github.com" target="_blank">小码哥的博客</a>
+            Base on <a
+                href="https://github.com/hugcoday/hugcoday.github.com" target="_blank">多多de棉花糖</a>
+        </center>
+        </footer>
         <div class="main-body">
         </div>
-        <a class="go_top hidden-phone hidden" href="#top" style="display: inline; ">
-            <i class="icon icons_go_top"></i>
-        </a>
-        <script src="js/json2.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.min.js"></script>
-        <script src="js/underscore-min.js"></script>
-        <script src="js/backbone-min.js"></script>
-        <script src="js/mustache.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/showdown.js"></script>
-        <script src="js/highlight/highlight.pack.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/base64.js"></script>
         <script src="js/blog.js"></script>
-        <script>
-            var duoshuoQuery = {short_name:"ma6174"};
-            if (typeof DUOSHUO !== 'undefined'){
-                DUOSHUO.RecentComments('.ds-recent-comments');
-            }
-        </script>
-        <script src="http://static.duoshuo.com/embed.js"></script>
     </body>
 </html>
