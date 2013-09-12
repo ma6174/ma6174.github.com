@@ -36,11 +36,7 @@ $(function() {
              var i = data.length - 1;
              for(;i>0;i--){
 //               console.log(parsePostData(data[i].url));
-                 $.ajax({
-                     url:data[i].url,
-                     data:{"client_id":client_id,"client_secret":client_secret},
-                     async:false
-                 }).done(function(data){
+                 $.get( data[i].url, {"client_id":client_id,"client_secret":client_secret}).done(function(data){
                      var filename = data.name;
                      var content_data = utf8to16(base64decode(data.content));
                      var title = content_data.split("\n")[0].slice(2);
